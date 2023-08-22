@@ -1,10 +1,11 @@
-import { Header } from "./components";
+import { Header, Mcq } from "./components";
 
 function App() {
   return (
     <>
-      <main className="flex justify-center">
+      <main className="flex justify-center items-center flex-col">
         <Header />
+        <Mcq />
       </main>
     </>
   );

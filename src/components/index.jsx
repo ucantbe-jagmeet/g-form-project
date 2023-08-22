@@ -1,3 +1,3 @@
 import Header from "./Header";
-
-export { Header };
+import Mcq from "./Mcq";
+export { Mcq, Header };
