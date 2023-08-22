@@ -5,6 +5,7 @@ import {
   Header,
   LinearScale,
   Mcq,
+  MultipleChoiceGrid,
   Paragraph,
   ShortAnswer,
 } from "./components";
@@ -21,6 +22,7 @@ function App() {
         <DropDown />
         <FileUpload />
         <LinearScale />
+        <MultipleChoiceGrid />
       </main>
     </>
   );
