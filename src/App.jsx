@@ -1,4 +1,4 @@
-import { Checkox, Header, Mcq, ShortAnswer } from "./components";
+import { Checkox, Header, Mcq, Paragraph, ShortAnswer } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Mcq />
         <Checkox />
         <ShortAnswer />
+        <Paragraph />
       </main>
     </>
   );

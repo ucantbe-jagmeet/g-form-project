@@ -1,5 +1,6 @@
 import Checkox from "./Checkox";
 import Header from "./Header";
 import Mcq from "./Mcq";
+import Paragraph from "./Paragraph";
 import ShortAnswer from "./ShortAnswer";
-export { ShortAnswer, Checkox, Mcq, Header };
+export { Paragraph, ShortAnswer, Checkox, Mcq, Header };
