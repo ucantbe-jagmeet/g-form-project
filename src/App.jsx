@@ -1,4 +1,4 @@
-import { Header, Mcq } from "./components";
+import { Checkox, Header, Mcq } from "./components";
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <main className="flex justify-center items-center flex-col">
         <Header />
         <Mcq />
+        <Checkox />
       </main>
     </>
   );

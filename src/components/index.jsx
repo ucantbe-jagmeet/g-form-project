@@ -1,3 +1,4 @@
+import Checkox from "./Checkox";
 import Header from "./Header";
 import Mcq from "./Mcq";
-export { Mcq, Header };
+export { Checkox, Mcq, Header };
