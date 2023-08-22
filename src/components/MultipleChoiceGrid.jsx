@@ -14,12 +14,12 @@ const MultipleChoiceGrid = () => {
       <h1 className="text-xl font-semibold mb-4 text-gray-600">
         Multiple Choice Grid
       </h1>
-      <table className="w-full mx-3">
+      <table className="w-full ">
         <thead>
           <tr>
             <th></th>
             {[1, 2, 3].map((colId) => (
-              <th key={colId} className="text-center">
+              <th key={colId} className="text-center text-sm sm:text-md">
                 Column {colId}
               </th>
             ))}
@@ -28,7 +28,7 @@ const MultipleChoiceGrid = () => {
         <tbody>
           {[1, 2, 3].map((rowId) => (
             <tr key={rowId}>
-              <th className="text-start">Row {rowId}</th>
+              <th className="text-start text-sm sm:text-md ">Row {rowId}</th>
               {[1, 2, 3].map((colId) => (
                 <td key={colId} className="text-center ">
                   <input

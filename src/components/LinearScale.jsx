@@ -7,9 +7,9 @@ const LinearScale = () => {
   return (
     <div className="lg:w-1/2 sm:w-2/3 w-full  h-auto p-5 my-3 rounded-lg border-2">
       <h1 className="text-xl font-semibold mb-4 text-gray-600">Linear Scale</h1>
-      <div className="flex justify-between items-end px-10">
+      <div className="flex justify-between items-end xl:px-10">
         <span>Worst</span>
-        <div className="flex space-x-14  text-lg ">
+        <div className="flex md:space-x-10 text-lg ">
           {[1, 2, 3, 4, 5].map((value) => (
             <label
               key={value}
@@ -22,7 +22,7 @@ const LinearScale = () => {
                 value={value}
                 checked={selectedValue === value}
                 onChange={handleValueChange}
-                className="w-4 h-4  text-blue-500"
+                className="cursor-pointer lg:h-5 lg:w-5 xl:m-3 m-2  text-blue-500"
               />
             </label>
           ))}
