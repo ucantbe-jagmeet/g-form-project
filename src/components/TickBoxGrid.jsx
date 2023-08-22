@@ -15,7 +15,7 @@ const TickBoxGrid = () => {
   return (
     <div className="lg:w-1/2 sm:w-2/3 w-full h-auto p-5 my-3 rounded-lg border-2">
       <h1 className="text-xl font-semibold mb-4 text-gray-600">
-        Checkbox Grid
+        Tick box Grid
       </h1>
       <table className="w-full">
         <thead>
