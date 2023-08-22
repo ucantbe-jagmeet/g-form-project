@@ -12,7 +12,7 @@ const FileUpload = () => {
         type="file"
         accept=".pdf,.doc,.docx,.txt"
         onChange={handleFileChange}
-        className="w-full px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="w-full px-3 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
       {selectedFile && (
         <p className="mt-2">

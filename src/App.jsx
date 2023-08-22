@@ -3,6 +3,7 @@ import {
   DropDown,
   FileUpload,
   Header,
+  LinearScale,
   Mcq,
   Paragraph,
   ShortAnswer,
@@ -19,6 +20,7 @@ function App() {
         <Paragraph />
         <DropDown />
         <FileUpload />
+        <LinearScale />
       </main>
     </>
   );
