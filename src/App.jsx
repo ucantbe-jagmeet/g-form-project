@@ -1,6 +1,7 @@
 import {
   Checkox,
   DropDown,
+  FileUpload,
   Header,
   Mcq,
   Paragraph,
@@ -17,6 +18,7 @@ function App() {
         <ShortAnswer />
         <Paragraph />
         <DropDown />
+        <FileUpload />
       </main>
     </>
   );
