@@ -18,7 +18,7 @@ const Checkox = () => {
   };
 
   return (
-    <div className="lg:w-1/2 w-2/3 h-auto p-5 my-3 rounded-lg border-2">
+    <div className="lg:w-1/2 sm:w-2/3 w-full h-auto p-5 my-3 rounded-lg border-2">
       <h1 className="text-xl font-semibold mb-4 text-gray-600 ">Checkbox</h1>
       <div className="space-y-2 px-5">
         {options.map((option) => (

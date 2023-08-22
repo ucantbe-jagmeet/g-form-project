@@ -1,12 +1,13 @@
-import { Checkox, Header, Mcq } from "./components";
+import { Checkox, Header, Mcq, ShortAnswer } from "./components";
 
 function App() {
   return (
     <>
-      <main className="flex justify-center items-center flex-col">
+      <main className="flex justify-center items-center flex-col px-5">
         <Header />
         <Mcq />
         <Checkox />
+        <ShortAnswer />
       </main>
     </>
   );
