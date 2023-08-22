@@ -7,7 +7,9 @@ import Mcq from "./Mcq";
 import MultipleChoiceGrid from "./MultipleChoiceGrid";
 import Paragraph from "./Paragraph";
 import ShortAnswer from "./ShortAnswer";
+import TickBoxGrid from "./TickBoxGrid";
 export {
+  TickBoxGrid,
   MultipleChoiceGrid,
   LinearScale,
   FileUpload,
